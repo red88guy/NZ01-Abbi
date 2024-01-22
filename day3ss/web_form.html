@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Puppy Adoption </title>
+    </head>
+
+    <body>
+
+        <h1> Puppy Adoption Form </h1>
+
+        Please fill out the form below to apply for Puppy Adoption.
+
+        <br>
+        <br>
+
+
+        <form>
+            <h2>  Credentials </h2>
+            
+            <label for = "Applicant_Name" > Applicant Name: </label>
+            <input type = "text" id = "Applicant_Name" required = "yes">
+
+            <br>
+            <br>
+
+            <label for = "Cellphone_Number" > Cellphone Number: </label>
+            <input type = "tel" id = "Cellphone_Number" pattern = "/[0-9]{3}-[0-9]{6,10}" placeholder = "###-#########">
+
+            <br>
+            <br>
+
+            <label for = "Email" > Email: </label>
+            <input type = "email" id = "Email" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder = "xx@xx.xx">
+
+            <br>
+            <br>
+
+            How many dogs are currently living in your household? <br>
+
+            <label for = "Dog_Number" > Dog Number:  </label>
+            <input type = "number" id = "Dog_Number">
+
+            <br>
+            <br>
+
+            Are there any children (under age of 10) currently living in your household? <br>
+
+            <label for "children_boolean"> Children: </label>
+            <select id = "children_boolean">
+                <option>  </option>
+                <option> Yes </option>
+                <option> No </option>
+            </select>
+
+
+            <h2>  Breed Selection </h2>
+
+            Please tell us your preference:
+
+            <br>
+            <br>
+
+            Size : <br>
+            <label>
+                <input type="checkbox" name = "format"> Less than 4kg
+            </label>
+
+            <br>
+
+            <label>
+                <input type="checkbox" name = "format"> 4kg - 10kg
+            </label>
+            
+            
+            <br>
+
+            <label>
+                <input type="checkbox" name = "format"> More than 10kg
+            </label>
+
+            <br>
+
+            Please ensure all the inforamtion above is correct before submission.
+
+            <br>
+            <br>
+
+            <button type = "submit"> Submit </button>
+
+
+        </form>
+
+
+
+        
+
+    </body>
+
+
+
+
+
+
+</html>

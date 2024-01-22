@@ -1,0 +1,49 @@
+p{
+    color:aquamarine
+}
+/* Formatting Family and Classes */
+.font-example{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+/* Formatting Text */
+.formatting-example .bold{
+    font-weight:bold;
+}
+
+.formatting-example .italic{
+    font-style:italic;
+}
+
+.formatting-example .underline{
+    text-decoration: underline;
+}
+
+.alignment-example{
+    text-align:center;
+}
+
+.decoration-example{
+    text-decoration:line-through;
+}
+
+.line-spacing-example{
+    letter-spacing:2px;
+    line-height: 5;
+}
+
+
+.shadow-example{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.web-safe-font{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.google.font{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
