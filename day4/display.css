@@ -1,0 +1,23 @@
+.block{
+    background-color: lightblue;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    /* the block is the default element */
+}
+
+.inline{
+    background-color: lightgreen;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline
+
+}
+
+.inline-block{
+    display: inline;
+    background-color: lightyellow;
+    width: 150px;
+    padding: 10px;
+}

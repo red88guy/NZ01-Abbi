@@ -1,0 +1,49 @@
+.static{
+    background-color: lightblue;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: static;
+    /* default */
+}
+
+.relative{
+    background-color: lightgreen;
+    padding: 10px;
+    margin-right:10px;
+    position: relative;
+    /* refers to the position from original or default */
+    top: 20px;
+    left: 10px;
+}
+
+.absolute{
+    background-color: lightgoldenrodyellow;
+    width: 150px;
+    padding:10px;
+    position: absolute;
+    /* refers to the from the top of the screen*/
+    top: 20px;
+    left: 40px;
+}
+
+.fixed{
+    background-color: lightpink;
+    width: 200px;
+    padding: 10px;
+    top: 60px;
+    position: fixed;
+    right: 30px
+    /* Fixed regardless where you scroll it */
+}
+
+.sticky{
+    background-color: pink;
+    width: 200px;
+    padding: 10px;
+    position: sticky;
+    top: 40px;  
+
+    /* scroll with navigation buttons on the web sites. */
+
+}
