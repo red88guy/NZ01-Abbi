@@ -15,5 +15,6 @@
     padding: 20px;
     background-color: lightblue;
     box-sizing: border-box;
+    word-wrap: break-word;  
 
 }

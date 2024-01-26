@@ -1,0 +1,16 @@
+body{
+    font-family: Georgia, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-title, .navigation{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(202, 202, 183);
+    padding: 30px
+}
+
+
+#about{
+    background-color: lightgray
+}
