@@ -57,27 +57,27 @@ a/= b;
 console.log("Division", a);
 
 // Function Call Expressions:
-function mySum(num1, num2) {
+const mySum = (num1, num2) => {
     console.log(num1 + num2);
 }
 
 mySum(30, 10);
 
-function myDifference(num1, num2) {
+const myDifference = (num1, num2) => {
     console.log(num1 - num2);
 }
 
 myDifference(30, 10);
 
 
-function myMultiply(num1, num2) {
+const myMultiply = (num1, num2) =>{
     console.log(num1 *num2);
 }
 
 myMultiply(30, 10);
 
 
-function myDivide(num1, num2) {
+const myDivide = (num1, num2) => {
     console.log(num1 /num2);
 }
 
