@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+
+</head>
+<body>
+    <script>
+        let fruits = ['apple', 'banana', 'orange', 'mango'];
+        
+        console.log('First fruit: ',fruits[0]);
+        console.log('Second fruit: ',fruits[1]);
+        console.log('Third fruit: ',fruits[2]);
+        console.log('Last fruit: ',fruits[fruits.length-1]);
+        console.log(fruits);
+
+        fruits[0] = 'grape';
+        console.log(fruits);
+        fruits.push('Strawberry');
+        console.log(fruits);
+
+        fruits.pop();
+        console.log(fruits);
+
+        fruits.splice(1,2);
+        console.log(fruits);
+
+        let numbers = [1,2,3,4,5];
+
+        for (let i = 0; i < numbers.length; i++) {
+            console.log(numbers[i]);
+        }
+
+        let colors = ['red','green','blue'];
+
+        colors.forEach(function (color) {
+            console.log(color);
+        }, []);
+
+
+    </script>
+</body>
+</html>

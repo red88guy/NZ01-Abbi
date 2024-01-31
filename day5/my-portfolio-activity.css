@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px dashed red
-}
+} */
 
 body{
     font-family: Georgia, Arial, sans-serif;
@@ -9,13 +9,22 @@ body{
     border: 0;
 }
 
-.site-title, .navigation{
+header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(202, 202, 183);
+    background-color: rgb(243, 23, 23);
     padding: 0px
 }
 
 
 #about{
-    background-color: lightgray
+    background-color: rgb(255, 255, 255)
+}
+
+.hero-button:hover{
+    background-color: rgb(226, 226, 185)
+}
+
+#hero{
+    background-image: url(https://removal.ai/wp-content/uploads/2021/05/image1.png);
+    color: white;
 }
