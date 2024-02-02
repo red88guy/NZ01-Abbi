@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Parameters Argument Return</title>
+</head>
+<body>
+    <script>
+        function greet(name) {
+            console.log("Hello, ",name);
+        }
+
+        greet('John');
+        greet('Jane');
+        greet("Doe");
+
+
+        function multiply(a,b) {
+            console.log(a*b)
+            return a*b
+        }
+
+        multiply(5,5);
+
+        function sum(a,b) {
+            return a+b;
+        }
+
+        console.log(sum(3,2));
+
+        let operation = sum(6,3) * 5;
+        console.log(operation);
+
+        let operation_two = multiply(2,0) + 12;
+        console.log(operation_two);
+
+    </script>
+
+
+
+</body>
+</html>

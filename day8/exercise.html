@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+</head>
+<body>
+    
+    <script>
+        //         Exercise 1: Function Basics
+        // Create a function called greet that takes a name as a parameter and logs a greeting message with the name to the console. Then, call the function with your name.
+
+            function greet(name) {
+                console.log(`hi ${name}, waassup !`);
+            }
+            
+            greet(name="john");
+
+        // Exercise 2: Function Expression
+        // Create a function expression named add that takes two numbers as parameters and returns their sum. Call the function to add 5 and 7, then log the result.
+
+            function add(num1,num2) {
+                return num1+num2;
+            }
+
+            console.log(add(num1=5,num2=7));
+
+        // Exercise 3: Is Even
+        // Write a function called isEven that takes a number as a parameter and returns true if it's even and false if it's odd. Test the function with various numbers.
+            function isEven(num1) {
+                if (num1 % 2 == 0) {
+                    return true;
+                }
+                // else statement is actually not required here as it refines
+                else { 
+                    return false;
+                }
+            }
+
+            for (i=1;i<=10;i++) {
+                console.log(`${i} isEven:  ${isEven(i)}`);
+            }
+
+        // Exercise 4: Local vs. Global Scope
+        // Declare a global variable globalVar with a value. Then, create a function that declares a local variable with the same name globalVar. Log the values of both variables inside and outside the function. What do you observe?
+
+
+
+            // Scenario 1: global only
+            let globalVar = 1
+            fName();
+            console.log("Outside Function",globalVar);
+
+            function fName() {
+                console.log("Before Change", globalVar);
+                globalVar = 2
+                console.log("After Change", globalVar);
+            }
+
+
+
+            // Scenario 2: global and local
+            globalVar = 1
+            fName2(3);
+            console.log("Outside Function",globalVar);
+
+            function fName2(globalVar) {
+                console.log("Before Change:", globalVar);
+                globalVar = 2
+                console.log("After Change", globalVar);
+            }
+
+
+
+
+        // Exercise 5: Function Hoisting
+        // Write a function named hoistedFunction and call it before the function declaration in your code. Does it work? Explain the behavior..
+
+            hoistedFunction();
+
+            function hoistedFunction() {
+                console.log("hoisted Function was called")
+            }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modern JS Part 1 </title>
+</head>
+<body>
+    
+    <script>
+        
+        number = 10.45;
+
+        console.log(Math.floor(number))
+
+        // template literal
+        // string interpolation 
+        console.log(`I want to buy ${number} apples`);
+
+
+        console.log(`This is the first sentence. 
+        This is the second sentence`);
+
+        // arrow functions
+        const subtract = (a,b) => {
+            return a + b
+        }
+
+        // implicit arrow function
+        const multiply = (a,b) => a*b;
+
+        // One parameters...
+        const name = firstName => console.log(`Hi, ${firstName}`)
+
+        const greet = () => console.log("Hello, welcome to the world of functions.");
+
+
+    </script>
+
+</body>
+</html>
