@@ -45,8 +45,6 @@
         // Exercise 4: Local vs. Global Scope
         // Declare a global variable globalVar with a value. Then, create a function that declares a local variable with the same name globalVar. Log the values of both variables inside and outside the function. What do you observe?
 
-
-
             // Scenario 1: global only
             let globalVar = 1
             fName();
@@ -58,9 +56,7 @@
                 console.log("After Change", globalVar);
             }
 
-
-
-            // Scenario 2: global and local
+            // Scenario 2: global and local with same variable name
             globalVar = 1
             fName2(3);
             console.log("Outside Function",globalVar);

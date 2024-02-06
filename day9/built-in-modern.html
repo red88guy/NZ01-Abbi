@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modern Built-In Methods </title>
+</head>
+<body>
+    <script>
+        // strings 
+        // split method
+        const message = "Hello, World!";
+        console.log(message);
+        const words = message.split(", ");
+        console.log(words);
+
+        // Include Method
+        const sentence = "The quick brown fox jumps over the lazy dog." ;
+        const containsWord = sentence.includes("fox");
+        console.log(containsWord);
+        const containsWord2 = sentence.includes("apple");
+        console.log(containsWord2);
+
+        // length
+        const sampleString = "Welcome to the world of JS features";
+        const strLength = sampleString.length;
+        console.log(strLength);
+
+        // MATH  
+        // max
+        const maxNumber = Math.max(1,2,3)
+        console.log(maxNumber);
+
+        numberTest1 = [1,2,3,4,5,6];
+        const maxNumber2 = Math.max(...numberTest1);
+        console.log(maxNumber2);
+
+        const minNumber = Math.min(10,5,20);
+        console.log(minNumber);
+
+        // random
+        const randomValue = Math.random()
+        console.log(randomValue);
+
+        // Round-Down
+        const roundedNumber = Math.floor(3.8);
+        console.log(roundedNumber);
+        // Round-Up
+        const roundedNumber2 = Math.ceil(3.8);
+        console.log(roundedNumber2);
+        
+        // round
+        const roundedValue = Math.round(3.6);
+        console.log(roundedValue);
+        const roundedValue2 = Math.round(3.1);
+        console.log(roundedValue2);
+
+        // rounding Integers
+        function getRandomInt(min,max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        const randomInt = getRandomInt(1,10);
+        console.log(randomInt);
+
+        // Number.toFixed
+        const fixedNumber = (3.141592).toFixed(2);
+        console.log(fixedNumber);
+
+        // Date
+        const currentDate = new Date();
+        console.log(currentDate);
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modern MS Part 2 </title>
+</head>
+<body>
+    <script>
+        // Destructuring
+        // Array Destructuring
+        let num = [1,2,3];
+        // console.log(firstNum = num[0]);
+
+        let [first,second,third] = num;
+        console.log(`${first}, ${second}, ${third}`);
+
+        // Object destructuring
+        const numbers1 = {
+            firstNum: 1,
+            secondNum: 2,
+            thirdNum: 3
+        };
+
+        const {firstNum, secondNum, thirdNum} = numbers1
+
+        console.log(firstNum, secondNum, thirdNum);
+
+        // Spread and Rest Operators
+        //  ... 
+        //  Spread Operator
+        function sum(x,y,z) {
+            return x + y + z;
+        }
+
+        const numbers2 = [1,2,3];
+        console.log(sum(...numbers2));
+
+        // Rest Operators
+        function myFunction(firstArg, ...restofArgs) {
+            console.log(firstArg);
+            console.log(restofArgs);
+        }
+
+        myFunction("one","two","three","four");
+        
+
+    </script>
+</body>
+</html>
