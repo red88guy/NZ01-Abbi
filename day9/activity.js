@@ -64,6 +64,3 @@ function validateForm() {
     return isValid;
 
 }
-
-
-// Input line isn't clear after submission. 

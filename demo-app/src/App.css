@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(111, 62, 226);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+
+#tank {
+  width: 200px;
+  height: 100px;
+}
+
