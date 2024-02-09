@@ -1,0 +1,41 @@
+.navHeader {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(111, 62, 226);
+	color: #ffffff;
+    padding: 0 2rem;
+    /* margin: 40px; */
+}
+ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;   
+}
+
+li {
+    list-style: none;
+    margin-left: 1.5rem;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: border 0.2s ease;
+}
+
+a:hover {
+    border-bottom: 2px solid azure;
+}
+
+a:focus {
+    color: azure;
+}
